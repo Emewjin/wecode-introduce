@@ -22,7 +22,7 @@ body {
   width: 100%;
   height: 300vh;
   line-height: 30px;
-  background: linear-gradient(270deg, #eb6ead, #5b87da);
+  background: linear-gradient(270deg, var(--pink), var(--blue));
   background-size: 200% 200%;
   -webkit-animation: headerbg 10s ease infinite;
   -moz-animation: headerbg 10s ease infinite;
@@ -98,13 +98,13 @@ body {
 
 .nav {
   width: 100%;
-  padding: 20px 0px;
+  padding: 10px 0px;
   z-index: 999;
   position: fixed;
   top: 0;
   font-size: 15px;
   font-weight: 700;
-  background: linear-gradient(270deg, #eb6ead, #5b87da);
+  background: linear-gradient(270deg, var(--pink), var(--blue));
   background-size: 200% 200%;
   -webkit-animation: headerbg 10s ease infinite;
   -moz-animation: headerbg 10s ease infinite;
@@ -267,7 +267,7 @@ body {
 .favorite i {
   margin-right: 20px;
   font-size: 40px;
-  background: linear-gradient(320deg, #eb6ead, #5b87da);
+  background: linear-gradient(320deg, var(--pink), var(--blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -279,7 +279,7 @@ body {
   margin: 50px 30px;
 }
 .contact i:hover {
-  background: linear-gradient(320deg, #eb6ead, #5b87da);
+  background: linear-gradient(320deg, var(--pink), var(--blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
