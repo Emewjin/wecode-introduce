@@ -62,6 +62,8 @@ header {
 }
 
 .header-text {
+  display: flex;
+  flex-direction: column;
   margin-top: 150px;
   color: white;
   font-weight: 300;
