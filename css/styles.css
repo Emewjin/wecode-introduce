@@ -156,7 +156,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0px;
+  padding-bottom: 200px;
   scroll-snap-align: start;
 }
 
@@ -168,7 +168,7 @@ header {
 }
 
 .section:nth-child(3) > .title-text {
-  padding-top: 130px;
+  padding-top: 200px;
   padding-bottom: 40px;
   width: 90%;
 }
@@ -182,7 +182,7 @@ header {
 @media screen and (max-width: 565px) {
   .section:nth-child(3) .title-text {
     font-size: 22px;
-    padding-top: 30px;
+    padding-top: 130px;
   }
   .title-text {
     font-size: 22px;
