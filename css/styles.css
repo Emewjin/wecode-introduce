@@ -134,6 +134,7 @@ header {
 .nav li {
   margin: 0px 70px;
 }
+
 @media screen and (max-width: 320px) {
   .nav {
     font-size: 10px;
@@ -142,6 +143,7 @@ header {
     margin: 0px 50px;
   }
 }
+
 .nav li a {
   color: white;
 }
