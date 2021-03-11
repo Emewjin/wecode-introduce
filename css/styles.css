@@ -32,7 +32,7 @@ body {
 }
 @media screen and (max-width: 565px) {
   body {
-    line-height: 30px;
+    line-height: 35px;
   }
 }
 
@@ -176,6 +176,7 @@ header {
   font-size: 40px;
   font-weight: 700;
   margin-top: 20px;
+  padding-top: 50px;
   width: 100%;
 }
 
@@ -193,14 +194,13 @@ header {
 
 @media screen and (max-width: 565px) {
   .section:nth-child(3) .title-text {
-    font-size: 22px;
     padding-top: 130px;
   }
   .title-text {
-    font-size: 22px;
+    font-size: 25px;
   }
   .sub-title-text {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 0px;
   }
 }
