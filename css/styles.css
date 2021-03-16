@@ -299,6 +299,11 @@ section:nth-child(3) > .title-text {
   justify-content: center;
   align-items: center;
 }
+.favorite:nth-child(2):hover,
+.favorite:nth-child(3):hover {
+  color: var(--blue);
+}
+
 
 @media screen and (max-width: 565px) {
   .favorite {
@@ -308,9 +313,7 @@ section:nth-child(3) > .title-text {
 
 .favorite i {
   margin-right: 20px;
-  background: linear-gradient(320deg, var(--pink), var(--blue));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
 }
 
 .favorite:nth-child(2),
