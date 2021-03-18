@@ -6,7 +6,7 @@
 html {
   scrollbar-width: none;
   -ms-overflow-style: none;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   /* scroll-snap-type: y; */
 }
 
@@ -359,6 +359,8 @@ section:nth-child(3) > .title-text {
   opacity: 1;
   animation: fadein 1s;
 }
+
+/* scroll.js */
 
 /* animations */
 
