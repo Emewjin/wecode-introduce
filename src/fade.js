@@ -25,9 +25,9 @@ function debounce(func, wait = 20, immediate = true) {
       const scrollInAt =
         window.scrollY + window.innerHeight - fadeImg.height / 4;
       const imageBottom = fadeImg.offsetTop + fadeImg.height;
-      const isHalfShown = scrollInAt > fadeImg.offsetTop;
+      const isQuarterShown = scrollInAt > fadeImg.offsetTop;
       const isNotScrolledPast = window.scrollY < imageBottom;
-      if (isHalfShown && isNotScrolledPast) {
+      if (isQuarterShown && isNotScrolledPast) {
         fadeImg.classList.add("active");
       } else {
         fadeImg.classList.remove("active");
