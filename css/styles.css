@@ -252,10 +252,6 @@ section:nth-child(3) > h2 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.hidden {
-  display: none;
-}
-
 /* section three */
 
 .contact i {
@@ -343,8 +339,8 @@ section:nth-child(3) > h2 {
 
 /* project.js */
 
-.opacity-half {
-  opacity: 50%;
+.hidden {
+  display: none;
 }
 
 .click-scale {
