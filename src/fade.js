@@ -24,10 +24,10 @@ function debounce(func, wait = 20, immediate = true) {
   function checkScroll() {
     fadeImgs.forEach((fadeImg) => {
       const scrollInAt =
-        window.scrollY + window.innerHeight - fadeImg.height / 4;
+      window.pageYOffset + window.innerHeight - fadeImg.height / 4;
       const imageBottom = fadeImg.offsetTop + fadeImg.height;
       const isQuarterShown = scrollInAt > fadeImg.offsetTop;
-      const isNotScrolledPast = window.scrollY < imageBottom;
+      const isNotScrolledPast = window.pageYOffset < imageBottom;
       if (isQuarterShown && isNotScrolledPast) {
         fadeImg.classList.add(ACTIVE);
       } else {

@@ -8,7 +8,6 @@ function moveToAnchor() {
 
 function smoothScroll(el, duration) {
     const target = document.querySelector(el);
-    console.log(target);
     const targetPosition = target.offsetTop;
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
