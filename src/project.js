@@ -30,3 +30,20 @@ function showCssProject(){
 filterIcons[0].addEventListener("click", showJsProject);
 filterIcons[1].addEventListener("click", showHtmlProject);
 filterIcons[2].addEventListener("click", showCssProject);
+
+const modalOpenBtn = document.querySelector('.project + button');
+const modal = document.querySelector('.modal');
+const overlayModal = document.querySelector('.modal__overlay');
+const modalCloseBtn = modal.querySelector('button');
+
+function closeModal() {
+    modal.classList.add(HIDDEN);    
+}
+
+function openModal() {
+    modal.classList.remove(HIDDEN);
+} 
+
+modalOpenBtn.addEventListener('click',openModal);
+modalCloseBtn.addEventListener('click',closeModal);
+overlayModal.addEventListener('click',closeModal);
