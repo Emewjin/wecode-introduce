@@ -210,6 +210,7 @@ h3 {
 .project + button {
   all: unset;
   background-color: var(--violet);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   padding: 2px 30px;
   border-radius: 50px;
   color: white;
@@ -219,9 +220,12 @@ h3 {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
 }
-
+.project + button:hover {
+  background: var(--pink);
+}
 .project + button:active {
   background: var(--pink);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 4px 4px 0px inset;
   transform: translateY(5px);
 }
 
