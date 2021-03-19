@@ -3,9 +3,9 @@ const favImgDrama = document.querySelector('.js-fav-one');
 const favoriteItem = document.querySelectorAll('.favorite');
 const HIDDEN = "hidden";
 
-function printFavImg(a,b){
-    a.classList.remove(HIDDEN);
-    b.classList.add(HIDDEN);
+function printFavImg(showImg,hideImg){
+    showImg.classList.remove(HIDDEN);
+    hideImg.classList.add(HIDDEN);
 }
 
 function clickDramaImg(){
