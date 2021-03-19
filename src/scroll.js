@@ -16,8 +16,8 @@ function smoothScroll(el, duration) {
     function animate(currentTime) {
         if(startTime === null) startTime = currentTime;
         const timeElapsed = currentTime - startTime;
-        const run = ease(timeElapsed, startPosition, distance, duration);
-        window.scrollTo(startPosition, run);
+        const runEase = ease(timeElapsed, startPosition, distance, duration);
+        window.scrollTo(0, runEase);
         if(timeElapsed < duration) requestAnimationFrame(animate);
     }
 
