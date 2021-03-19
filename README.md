@@ -1,10 +1,3 @@
-# wecode-introduce
+# 자기소개 페이지 만들기
 
-## WECODE 사전스터디 1주차 과제
-HTML, CSS 이용하여 자기소개 페이지 만들고 웹호스팅 하기   
-https://emewjin.github.io/wecode-introduce/
-
-## Issues
--03.11   
-모바일 삼성 브라우저, 네이버 앱에서 헤더의 높이가 짧아져 레이아웃이 깨지는 문제 발생   
- ✔ 해결 : 뭘 어떻게 해도 안되길래 포기하려던 참에 브라우저 캐시를 삭제하고 다시 들어가보니까 정상적으로 출력되어서 매우 허탈.. 단순 브라우저 버그였던 것인지?? 아직도 원인을 알지 못함 :(
+https://emewjin.github.io/self-introduce/
